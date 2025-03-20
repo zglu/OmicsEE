@@ -1,0 +1,5 @@
+url,dataset,name,embedding,pointSize,interpolator,embeddingLabels,labelFontSize
+https://bulkrna.schisto.xyz,Sm_bulkRNA,Sm integrative bulk RNA-seq (v7),MDS,1.5,interpolatePuRd,stage,9
+https://adultsc.schisto.xyz,Sm_adult_scRNA_Wendt2020,Sm adult scRNA-seq (v7),umap,1,interpolateYlGnBu,main_type,9
+https://smed.schisto.xyz,Smed_scRNA_norm,Smed scRNA all timepoints,X_umap,1,interpolateReds,BigCellType,9
+https://sc-spatial-cirro.netlify.app,E9.5_Bin50,Mouse E9.5 embryo Stereo-seq Bin50,spatial,1.2,interpolateBlues,,

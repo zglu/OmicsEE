@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Omics Expression Explorer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Roboto|Squada+One|Source+Code+Pro|Abril+Fatface|Lobster" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+<link rel="stylesheet" href="https://schisto.xyz/explore/asserts/standard.css">
+<script src="https://schisto.xyz/explore/asserts/tipuesearch_set.js"></script>
+<script src="search_content.js"></script>
+<link rel="stylesheet" href="https://schisto.xyz/explore/asserts/tipuesearch.min.css">
+<script src="https://schisto.xyz/explore/asserts/tipuesearch.min.js"></script>
+
+<!--Favicon-->
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+<link rel="icon" href="/images/favicon.png" type="image/x-icon">
+
+</head>
+<body>
+
+<div class="cont">
+<div id="head"><div class="block"><a href="https://schisto.xyz" class="not"><div class="ban">SchistoXYZ</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>Omics Expression Explorer</h3>
+<!-- <div class="fo-1" style="padding-top: 10px;">V2</div> -->
+</div></div>
+
+<div class="block-790"><div class="slab fo-2"><a href="https://github.com/zglu/OmicsEE">OmicsEE: </a><span class="fa-1">explore gene expression in multiple <a href="https://schisto.xyz/#data">datasets</a></span></div></div>
+
+<div class="block-978" style="padding-bottom: 59px;">
+<div class="fo-3" style="padding-top: 50px;">
+Enter a gene id or gene name as provided in your <code>genes.csv</code>.
+</div>
+
+<div style="padding-top: 15px;">
+<form>
+<div class="tipue_search_group">
+<input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required><button type="submit" class="tipue_search_button"><div class="tipue_search_icon">&#9906;</div></button>
+</div>
+</form>
+<div id="tipue_search_content"></div>
+</div>
+
+</div>
+</div>
+
+<footer class="foot"><div class="block fo-1"><a href="">Schisto.XYZ</a> developed and maintained by <a href="https://zglu.github.io">@zglu</a><p>&copy; 2018-2024 Powered by <a href="https://cirrocumulus.readthedocs.io/en/latest/">Cirro</a> and TipueSearch.</div></footer>
+
+<!-- Tipue Search script-->
+<script>
+$(document).ready(function() {
+     $('#tipue_search_input').tipuesearch({
+          'show': 1,
+          'newWindow': true,
+          'showURL': false,
+          'imageZoom': true
+     });
+});
+</script>
+
+</body>
+</html>
