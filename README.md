@@ -2,7 +2,7 @@
 
 # Omics Expression Explorer (OmicsEE)
 
-This repository contains the simple yet powerful OmicsEE framework for gene expression exploration across multiple datasets.
+This repository contains the simple yet powerful OmicsEE framework for gene expression exploration across multiple datasets and/or modalities (bulk, single-cell, spatial, etc), in any species.
 
 
 ## Overview
